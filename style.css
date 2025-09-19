@@ -76,6 +76,10 @@ ul li:hover{
          border-radius: 50%;
          margin: 20px;
         }
+    
+    a ,h3 ,p{
+             color: #ffffffff;
+             }
     h6{
          color: #c5f82aff;
          margin: 10px 0 30px 0;
@@ -96,3 +100,4 @@ ul li:hover{
          height: 20px;
         }
 }
+
