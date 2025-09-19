@@ -22,16 +22,16 @@ body{
     padding: 20px;
     margin: 15px;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 img{
-    width: 85px;
+    width: 50px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 10px 0px;
 }
 
-a ,h2 ,p{
+a ,h3 ,p{
     color: #ffffffff;
 }
 
@@ -40,30 +40,59 @@ a{
      padding: 20px;
 }
 
-h5{
+h6{
     color: #c5f82aff;
-    margin: 10px 0 30px 0;
+    margin: 5px 0 15px 0;
     font-weight: bolder;
 }
 
 p{
-    font-size: 14px;
-    margin: 0 30px 25px 30px;
+    font-size: 10px;
+    margin: 5px 15px;
 }
 
 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     background-color: #333333ff;
+    font-size: 11px;
+    font-weight: bold;
     padding: 15px 0;
     margin: 10px 0px;
-    border-radius: 8px;
-    height: 20px;
-}
-
-ul{
-    
+    border-radius: 5px;
+    height: 2px;
+    width: 100%;
 }
 
 ul li:hover{
    background-color:#c5f82aff ;
+}
+
+@media (min-width:0px ) and (max-width:376px){
+    img{
+         width: 85px;
+         border-radius: 50%;
+         margin: 20px;
+        }
+    h6{
+         color: #c5f82aff;
+         margin: 10px 0 30px 0;
+         font-weight: bolder;
+        }
+
+    p{
+         font-size: 14px;
+         margin: 0 30px 25px 30px;
+      }
+
+    li {
+         list-style-type: none;
+         background-color: #333333ff;
+         padding: 15px 0;
+         margin: 10px 0px;
+         border-radius: 8px;
+         height: 20px;
+        }
 }
